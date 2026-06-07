@@ -43,6 +43,8 @@ const io = initSocket(server);
 
 app.set("io", io);
 
-server.listen(port, () => {
-  console.log(`Server started on port: ${port}`);
-});
+// server.listen(port, () => {
+//   console.log(`Server started on port: ${port}`);
+// });
+
+export default server;
